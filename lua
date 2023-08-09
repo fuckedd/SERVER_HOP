@@ -11,7 +11,7 @@ end
 
 local Server, Next; repeat
    local Servers = ListServers(Next)
-   Server = Servers.data[4]
+   Server = Servers.data[3]
    Next = Servers.nextPageCursor
 until Server
 
